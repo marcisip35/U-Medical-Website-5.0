@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>U Medical Group</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/Ulogo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sofia&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero -->
+    <div id="Hero">
+        <!-- Navigation Bar -->
+        <header>
+            <div class="top-nav">
+                <div class="top-nav-container">
+                    <div class="wrapper">
+                        <div class="top-nav-left">
+
+                        </div>
+                        <div class="top-nav-right">
+                            <a href="https://soundphx.app.telmediq.com/signin/token/" target="_blank">Page a Doctor </a>
+                            <a href="https://www.paymydoctor.com/paymydoctor/pre-login" target="_blank">Pay Bill</a>
+                            <a href="#">Patient Portal &nbsp;&nbsp; |</a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="18px"
+                                    viewBox="0 0 24 24" stroke="#ffffff">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path fill-rule="evenodd"
+                                            d="M15.1742424,5.3203125 L17,5.3203125 L17,2.140625 C16.6856061,2.09765625 15.6022727,2 14.3409091,2 C11.7083333,2 9.90530303,3.65625 9.90530303,6.69921875 L9.90530303,9.5 L7,9.5 L7,13.0546875 L9.90530303,13.0546875 L9.90530303,22 L13.4659091,22 L13.4659091,13.0546875 L16.2537879,13.0546875 L16.6969697,9.5 L13.4659091,9.5 L13.4659091,7.05078125 C13.4659091,6.0234375 13.7424242,5.3203125 15.1742424,5.3203125 Z" />
+                                    </g>
+
+                                </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" version="1.1" width="18px"
+                                    viewBox="0 0 512.00 512.00" xml:space="preserve" stroke="#ffffff"
+                                    stroke-width="0.00512">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g id="7935ec95c421cee6d86eb22ecd125aef">
+                                            <path style="display: inline; fill-rule: evenodd; clip-rule: evenodd;"
+                                                d="M116.504,500.219V170.654H6.975v329.564H116.504 L116.504,500.219z M61.751,125.674c38.183,0,61.968-25.328,61.968-56.953c-0.722-32.328-23.785-56.941-61.252-56.941 C24.994,11.781,0.5,36.394,0.5,68.722c0,31.625,23.772,56.953,60.53,56.953H61.751L61.751,125.674z M177.124,500.219 c0,0,1.437-298.643,0-329.564H286.67v47.794h-0.727c14.404-22.49,40.354-55.533,99.44-55.533 c72.085,0,126.116,47.103,126.116,148.333v188.971H401.971V323.912c0-44.301-15.848-74.531-55.497-74.531 c-30.254,0-48.284,20.38-56.202,40.08c-2.897,7.012-3.602,16.861-3.602,26.711v184.047H177.124L177.124,500.219z">
+                                            </path>
+                                        </g>
+                                    </g>
+
+                                </svg></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <div class="nav-container">
+                    <div class="wrapper">
+                        <div class="nav-left">
+                            <img src="./assets/logo.png" />
+                        </div>
+
+                        <div class="nav-right">
+                            <div class="dropdown">
+                                <a href="#Welcome">About Us</a>
+                                <div class="dropdown-content">
+                                    <a href="#Mission">Our Mission</a>
+                                    <a href="./aboutUs.html" target="_blank">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#Services">Services</a>
+                                <div class="dropdown-content">
+                                    <a href="">Primary Care</a>
+                                    <a href="">Specialty Care</a>
+                                    <a href="">Acute Care</a>
+                                    <a href="">Post-Acute Care</a>
+                                    <a href="">Medicare Advantage</a>
+                                    <a href="">Virtual Care</a>
+                                </div>
+                            </div>
+                            <a href="./doctors.html" target="_blank">Find a Doctor</a>
+                            <a href="./locations.html" target="_blank">Locations</a>
+                            <div class="dropdown">
+                                <a href="#/" target="_blank">Careers</a>
+                                <div class="dropdown-content">
+                                    <a href="">Partner With Us</a>
+                                    <a href="">Job Openings</a>
+                                </div>
+                            </div>
+                            <a href="./contact.html" target="_blank">Contact Us</a>
+                            <a href="./appointment.html" target="_blank" class="appointment-button">Request an
+                                Appointment</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30px" viewBox="0 0 24 24" fill="none"
+                                stroke="#000000">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                                        stroke="#000000" stroke-width="0.552" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Top Page Hero-->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+                aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="./assets/Banner-image-1.png" class="d-block w-100 carousel-img" alt="First slide" />
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                </svg>
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Best Healthcare Service in North America</h1>
+                        <p>Learn more about our excellent doctors and healthcare service! </p>
+                        <p><a class="btn btn-lg btn-primary" href="./aboutUs.html" target="_blank">Learn More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="./assets/Banner-image-2.png" class="d-block w-100 carousel-img" alt="Second slide" />
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                </svg>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Compassionate Care, Close to Home</h1>
+                        <p>Looking for a Clinic near you? check out our locations accross the US</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Locations</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/Banner-image-3.png" class="d-block w-100 carousel-img" alt="Third slide" />
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                </svg>
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Have a Burning Question?</h1>
+                        <p>Contact us through phone, email or come to one of our offices near you</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Contact Us</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="quick-links">
+        <div class="quick-links-container ">
+            <div class="wrapper">
+                <h1>Useful Links</h1>
+                <div class="quick-links-container-item hiddenOne">
+                    <a href="">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.0" id="Layer_1" width="90px" viewBox="0 0 64 64"
+                                enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <rect x="46" y="40" fill="#f2f2f2" width="6" height="4" />
+                                        <rect y="20" fill="#f2f2f2" width="64" height="8" />
+                                        <path fill="#f2f2f2"
+                                            d="M64,18v-6c0-2.211-1.789-4-4-4H4c-2.211,0-4,1.789-4,4v6H64z" />
+                                        <path fill="#f2f2f2"
+                                            d="M0,30v22c0,2.211,1.789,4,4,4h56c2.211,0,4-1.789,4-4V30H0z M21,46H11c-0.553,0-1-0.447-1-1s0.447-1,1-1h10 c0.553,0,1,0.447,1,1S21.553,46,21,46z M25,40H11c-0.553,0-1-0.447-1-1s0.447-1,1-1h14c0.553,0,1,0.447,1,1S25.553,40,25,40z M35,40h-6c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,1,0.447,1,1S35.553,40,35,40z M54,45c0,0.553-0.447,1-1,1h-8 c-0.553,0-1-0.447-1-1v-6c0-0.553,0.447-1,1-1h8c0.553,0,1,0.447,1,1V45z" />
+                                    </g>
+                                </g>
+
+                            </svg>
+                        </div>
+                        <div class="bottom">
+                            <p>Need to make a payment?</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="quick-links-container-item hiddenOne">
+                    <a href="">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100px" viewBox="0 0 24 24" fill="none">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M7.75 2.5C7.75 2.08579 7.41421 1.75 7 1.75C6.58579 1.75 6.25 2.08579 6.25 2.5V4.07926C4.81067 4.19451 3.86577 4.47737 3.17157 5.17157C2.47737 5.86577 2.19451 6.81067 2.07926 8.25H21.9207C21.8055 6.81067 21.5226 5.86577 20.8284 5.17157C20.1342 4.47737 19.1893 4.19451 17.75 4.07926V2.5C17.75 2.08579 17.4142 1.75 17 1.75C16.5858 1.75 16.25 2.08579 16.25 2.5V4.0129C15.5847 4 14.839 4 14 4H10C9.16097 4 8.41527 4 7.75 4.0129V2.5Z"
+                                        fill="#f2f2f2" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M22 12V14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14V12C2 11.161 2 10.4153 2.0129 9.75H21.9871C22 10.4153 22 11.161 22 12ZM16 13.25C16.4142 13.25 16.75 13.5858 16.75 14V15.25L18 15.25C18.4142 15.25 18.75 15.5858 18.75 16C18.75 16.4142 18.4142 16.75 18 16.75H16.75V18C16.75 18.4142 16.4142 18.75 16 18.75C15.5858 18.75 15.25 18.4142 15.25 18V16.75L14 16.75C13.5858 16.75 13.25 16.4142 13.25 16C13.25 15.5858 13.5858 15.25 14 15.25H15.25V14C15.25 13.5858 15.5858 13.25 16 13.25Z"
+                                        fill="#f2f2f2" />
+                                </g>
+
+                            </svg>
+                        </div>
+                        <div class="bottom">
+                            <p>Need an appointment?</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="quick-links-container-item hiddenOne">
+                    <a href="">
+                        <div class="top">
+                            <img src="./assets/logo2.png" width="100px">
+                        </div>
+                        <div class="bottom">
+                            <p>Looking for a doctor?</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="quick-links-container-item hiddenOne">
+                    <a href="">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                fill="#f2f2f2" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve"
+                                width="100px">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M111.733,40.174c-18.115,0-34.834,6.066-48.253,16.259V15.61H47.87v56.484c-10.085,13.38-16.075,30.011-16.075,48.019 v272.505c0,44.078,35.86,79.939,79.938,79.939c44.078,0,79.939-35.861,79.939-79.939V120.113 C191.671,76.035,155.81,40.174,111.733,40.174z M176.062,392.618c0,35.471-28.857,64.329-64.329,64.329 c-35.471,0-64.329-28.857-64.329-64.329V120.113c0-35.471,28.858-64.329,64.329-64.329c35.472,0,64.329,28.857,64.329,64.329 V392.618z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M63.48,120.113V256h15.61V120.113c0-17.894,14.569-32.453,32.26-32.453V72.05C85.333,72.05,63.48,93.611,63.48,120.113z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="63.48" y="272.65" width="15.61" height="32.26" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="63.48" y="320.52" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <polygon
+                                                points="199.805,96.78 199.805,112.39 496.39,112.39 496.39,480.78 15.61,480.78 15.61,112.39 23.935,112.39 23.935,96.78 0,96.78 0,496.39 512,496.39 512,96.78 " />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M208.121,128.337v103.774h272.084V128.337H208.121z M464.595,216.501H223.73v-72.554h240.865V216.501z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="240.39" y="192.52" width="23.935" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="271.61" y="192.52" width="24.976" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="303.87" y="192.52" width="23.935" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M239.971,248.56c-13.142,0-23.834,10.692-23.834,23.834s10.692,23.834,23.834,23.834 c13.142,0,23.834-10.692,23.834-23.834C263.805,259.253,253.113,248.56,239.971,248.56z M239.971,280.62 c-4.534,0-8.224-3.689-8.224-8.224s3.69-8.224,8.224-8.224s8.224,3.689,8.224,8.224C248.195,276.93,244.505,280.62,239.971,280.62 z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M296.074,248.56c-13.142,0-23.834,10.692-23.834,23.834s10.692,23.834,23.834,23.834 c13.142,0,23.834-10.692,23.834-23.834C319.908,259.253,309.217,248.56,296.074,248.56z M296.074,280.62 c-4.534,0-8.224-3.689-8.224-8.224s3.69-8.224,8.224-8.224c4.534,0,8.224,3.689,8.224,8.224 C304.299,276.93,300.609,280.62,296.074,280.62z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M352.178,248.56c-13.142,0-23.834,10.692-23.834,23.834s10.692,23.834,23.834,23.834 c13.143,0,23.835-10.692,23.835-23.834C376.013,259.253,365.321,248.56,352.178,248.56z M352.178,280.62 c-4.534,0-8.224-3.689-8.224-8.224s3.69-8.224,8.224-8.224c4.535,0,8.225,3.689,8.225,8.224 C360.403,276.93,356.713,280.62,352.178,280.62z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M239.971,304.664c-13.142,0-23.834,10.692-23.834,23.835c0,13.142,10.692,23.834,23.834,23.834 c13.142,0,23.834-10.692,23.834-23.834C263.805,315.357,253.113,304.664,239.971,304.664z M239.971,336.723 c-4.534,0-8.224-3.689-8.224-8.224s3.69-8.225,8.224-8.225s8.224,3.689,8.224,8.225 C248.195,333.034,244.505,336.723,239.971,336.723z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M296.074,304.664c-13.142,0-23.834,10.692-23.834,23.835c0,13.142,10.692,23.834,23.834,23.834 c13.142,0,23.834-10.692,23.834-23.834C319.908,315.357,309.217,304.664,296.074,304.664z M296.074,336.723 c-4.534,0-8.224-3.689-8.224-8.224s3.69-8.225,8.224-8.225c4.534,0,8.224,3.689,8.224,8.225 C304.299,333.034,300.609,336.723,296.074,336.723z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M352.178,304.664c-13.142,0-23.834,10.692-23.834,23.835c0,13.142,10.692,23.834,23.834,23.834 c13.143,0,23.835-10.692,23.835-23.834C376.013,315.357,365.321,304.664,352.178,304.664z M352.178,336.723 c-4.534,0-8.224-3.689-8.224-8.224s3.69-8.225,8.224-8.225c4.535,0,8.225,3.689,8.225,8.225 C360.403,333.034,356.713,336.723,352.178,336.723z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M239.971,360.768c-13.142,0-23.834,10.692-23.834,23.834c0,13.142,10.692,23.835,23.834,23.835 c13.142,0,23.834-10.692,23.834-23.835C263.805,371.46,253.113,360.768,239.971,360.768z M239.971,392.828 c-4.534,0-8.224-3.689-8.224-8.225c0-4.535,3.69-8.224,8.224-8.224s8.224,3.689,8.224,8.224 C248.195,389.139,244.505,392.828,239.971,392.828z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M296.074,360.768c-13.142,0-23.834,10.692-23.834,23.834c0,13.142,10.692,23.835,23.834,23.835 c13.142,0,23.834-10.692,23.834-23.835C319.908,371.46,309.217,360.768,296.074,360.768z M296.074,392.828 c-4.534,0-8.224-3.689-8.224-8.225c0-4.535,3.69-8.224,8.224-8.224c4.534,0,8.224,3.689,8.224,8.224 C304.299,389.139,300.609,392.828,296.074,392.828z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M352.178,360.768c-13.142,0-23.834,10.692-23.834,23.834c0,13.142,10.692,23.835,23.834,23.835 c13.143,0,23.835-10.692,23.835-23.835C376.013,371.46,365.321,360.768,352.178,360.768z M352.178,392.828 c-4.534,0-8.224-3.689-8.224-8.225c0-4.535,3.69-8.224,8.224-8.224c4.535,0,8.225,3.689,8.225,8.224 C360.403,389.139,356.713,392.828,352.178,392.828z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M239.971,416.872c-13.142,0-23.834,10.692-23.834,23.835c0,13.142,10.692,23.834,23.834,23.834 c13.142,0,23.834-10.692,23.834-23.834C263.805,427.564,253.113,416.872,239.971,416.872z M239.971,448.931 c-4.534,0-8.224-3.689-8.224-8.224c0-4.535,3.69-8.225,8.224-8.225s8.224,3.689,8.224,8.225 C248.195,445.242,244.505,448.931,239.971,448.931z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M296.074,416.872c-13.142,0-23.834,10.692-23.834,23.835c0,13.142,10.692,23.834,23.834,23.834 c13.142,0,23.834-10.692,23.834-23.834C319.908,427.564,309.217,416.872,296.074,416.872z M296.074,448.931 c-4.534,0-8.224-3.689-8.224-8.224c0-4.535,3.69-8.225,8.224-8.225c4.534,0,8.224,3.689,8.224,8.225 C304.299,445.242,300.609,448.931,296.074,448.931z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M352.178,416.872c-13.142,0-23.834,10.692-23.834,23.835c0,13.142,10.692,23.834,23.834,23.834 c13.143,0,23.835-10.692,23.835-23.834C376.013,427.564,365.321,416.872,352.178,416.872z M352.178,448.931 c-4.534,0-8.224-3.689-8.224-8.224c0-4.535,3.69-8.225,8.224-8.225c4.535,0,8.225,3.689,8.225,8.225 C360.403,445.242,356.713,448.931,352.178,448.931z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M480.205,248.56h-95.758v47.669h95.759V248.56H480.205z M464.596,280.62h-0.001h-64.538v-16.45h64.539V280.62z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M480.205,304.664h-95.758v47.669h95.759v-47.669H480.205z M464.596,336.723h-0.001h-64.538v-16.45h64.539V336.723z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="392.325" y="376.715" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="416.26" y="376.715" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="440.195" y="376.715" width="16.65" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="464.13" y="376.715" width="16.65" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="392.325" y="408.976" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="416.26" y="408.976" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="440.195" y="408.976" width="16.65" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="464.13" y="408.976" width="16.65" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="392.325" y="441.236" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="416.26" y="441.236" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="440.195" y="441.236" width="16.65" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="464.13" y="441.236" width="16.65" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="392.325" y="151.935" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="416.26" y="151.935" width="15.61" height="15.61" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect x="440.195" y="151.935" width="16.65" height="15.61" />
+                                        </g>
+                                    </g>
+                                </g>
+
+                            </svg>
+                        </div>
+                        <div class="bottom">
+                            <p>Have any questions?</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Welcome -->
+    <section id="Welcome">
+        <div class="welcome-container">
+            <div class="wrapper">
+                <div class="welcome-container-item">
+                    <div class="welcome-container-item-left fade-in">
+                        <img src="./assets/Banner-image-2.png" />
+                    </div>
+
+                    <div class="welcome-container-item-right hiddenTwo">
+                        <h2>U Medical Group</h2>
+
+                        <p>U Medical Group has over 50 physicians in a broad range of specialties practicing throughout
+                            offices in the High Desert region of Southern California. Our doctors are committed to
+                            providing
+                            quality medical treatment and work to promote your good health in a professional and caring
+                            environment.
+                            </br></br>
+                            We pledge to treat you with respect and give you the personalized attention you deserve.
+                            Together we can achieve optimal health and well-being for your lifetime.
+                            </br></br>
+                            Guided by our core values of Communication, Compassion, Competence and Camaraderie, we
+                            strive to
+                            improve healthcare outcomes and experience by providing patients with the right care at the
+                            right time at the right place.
+                        </p>
+                        <a href="./aboutUs.html" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission -->
+    <section id="Mission">
+        <div class="mission-items-container">
+            <div class="wrapper">
+                <div class="mission-items fade-in">
+                    <div class="mission-item ">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100px" viewBox="0 0 24 24" fill="none">
+                                <path
+                                    d="M21 11.9998H18.6361C17.9781 11.9998 17.6491 11.9998 17.3578 12.1296C17.0665 12.2593 16.8463 12.504 16.4059 12.9932L15.3767 14.1369C15.0154 14.5382 14.8348 14.7389 14.6057 14.734C14.3766 14.7291 14.2049 14.521 13.8616 14.1048L10.3334 9.82819C10.0133 9.44017 9.85321 9.24615 9.63599 9.23311C9.41877 9.22006 9.23663 9.39352 8.87237 9.74044L7.36897 11.1723C6.93986 11.5809 6.7253 11.7853 6.45709 11.8926C6.18887 11.9998 5.89258 11.9998 5.3 11.9998H3"
+                                    stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                                <path
+                                    d="M8.96173 18.9108L9.42605 18.3219L8.96173 18.9108ZM12 5.5006L11.4596 6.0207C11.601 6.1676 11.7961 6.2506 12 6.2506C12.2039 6.2506 12.399 6.1676 12.5404 6.0207L12 5.5006ZM15.0383 18.9109L15.5026 19.4999V19.4999L15.0383 18.9109ZM12 20.4859L12 19.7359L12 20.4859ZM2.65666 13.3964C2.87558 13.748 3.33811 13.8556 3.68974 13.6367C4.04137 13.4178 4.14895 12.9552 3.93003 12.6036L2.65666 13.3964ZM6.52969 15.7718C6.23645 15.4793 5.76158 15.4798 5.46903 15.7731C5.17649 16.0663 5.17706 16.5412 5.47031 16.8337L6.52969 15.7718ZM2.75 9.13707C2.75 6.33419 4.00722 4.59507 5.57921 3.99711C7.15546 3.39753 9.35129 3.8302 11.4596 6.0207L12.5404 4.9805C10.1489 2.49583 7.3447 1.72069 5.04591 2.59512C2.74286 3.47116 1.25 5.88785 1.25 9.13707H2.75ZM15.5026 19.4999C16.9949 18.3234 18.7837 16.7461 20.2061 14.9838C21.6126 13.2412 22.75 11.2089 22.75 9.13703H21.25C21.25 10.688 20.3777 12.3829 19.0389 14.0417C17.716 15.6807 16.0239 17.1788 14.574 18.3219L15.5026 19.4999ZM22.75 9.13703C22.75 5.88784 21.2571 3.47115 18.9541 2.59511C16.6553 1.7207 13.8511 2.49583 11.4596 4.9805L12.5404 6.0207C14.6487 3.8302 16.8445 3.39753 18.4208 3.99711C19.9928 4.59506 21.25 6.33418 21.25 9.13703H22.75ZM8.49742 19.4998C9.77172 20.5044 10.6501 21.2359 12 21.2359L12 19.7359C11.2693 19.7359 10.8157 19.4174 9.42605 18.3219L8.49742 19.4998ZM14.574 18.3219C13.1843 19.4174 12.7307 19.7359 12 19.7359L12 21.2359C13.3499 21.2359 14.2283 20.5044 15.5026 19.4999L14.574 18.3219ZM3.93003 12.6036C3.18403 11.4054 2.75 10.2312 2.75 9.13707H1.25C1.25 10.617 1.83054 12.0695 2.65666 13.3964L3.93003 12.6036ZM9.42605 18.3219C8.50908 17.599 7.49093 16.7307 6.52969 15.7718L5.47031 16.8337C6.48347 17.8445 7.54819 18.7515 8.49742 19.4998L9.42605 18.3219Z"
+                                    fill="#1C274C" />
+                            </svg>
+                            <h1>Our Mission</h1>
+                        </div>
+                        <div class="bottom">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mission-item">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="100px" viewBox="0 0 24 24"
+                                id="telescope-2" data-name="Line Color" class="icon line-color">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <g id="SVGRepo_iconCarrier">
+
+                                    <path id="secondary" d="M14,21l-3-9M8,21l3-9"
+                                        style="fill: none; stroke: #1C274C; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;" />
+
+                                    <path id="primary"
+                                        d="M4.81,4,15.44,6.81A1,1,0,0,1,16.14,8l-1,3.86a1,1,0,0,1-1.23.71L3.26,9.76ZM21,9.34,16.14,8l-1,3.86L20,13.2ZM5.07,3,3,10.73"
+                                        style="fill: none; stroke: #1C274C; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;" />
+
+                                </g>
+
+                            </svg>
+                            <h1>Our Vision</h1>
+                        </div>
+                        <div class="bottom">
+                            <p>In voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat
+                                non
+                                proident.</p>
+                        </div>
+                    </div>
+                    <div class="mission-item">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100px" viewBox="0 0 48 48" fill="none">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M24 25.1333C28.9725 25.1333 33 21.076 33 16.0667C33 11.0573 28.9725 7 24 7C19.0275 7 15 11.0573 15 16.0667C15 21.076 19.0275 25.1333 24 25.1333Z"
+                                        fill="#1C274C" />
+                                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="6" y="28"
+                                        width="36" height="13">
+                                        <path
+                                            d="M16.8786 28.3569C17.3814 28.2333 17.8971 28.4861 18.1254 28.9539L22.1893 28.9542C24 28.9538 24 28.9543 25.8105 28.9539L29.8746 28.9539C30.1029 28.4861 30.6186 28.2333 31.1214 28.3569C36.5255 29.6849 42 32.3928 42 36.4664V40.9997H6V36.4664C6 32.3928 11.4745 29.6849 16.8786 28.3569Z"
+                                            fill="#1C274C" />
+                                    </mask>
+                                    <g mask="url(#mask0)"> </g>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M15.6354 29.9375C15.4505 30.5613 15.4381 31.3074 15.7149 32.1985C15.8088 32.1896 15.9039 32.1851 16 32.1851C17.6569 32.1851 19 33.5382 19 35.2073C19 36.8764 17.6569 38.2295 16 38.2295C14.3431 38.2295 13 36.8764 13 35.2073C13 34.3657 13.3415 33.6044 13.8925 33.0564C13.4321 31.7408 13.3829 30.4996 13.7178 29.3692C13.7252 29.3442 13.7328 29.3193 13.7406 29.2945C9.54212 30.7966 6 33.1897 6 36.4664V42.9997H42V36.4664C42 33.2191 38.5212 30.8396 34.3723 29.3352C34.5763 29.9155 34.6923 30.5333 34.7142 31.1851H34.9412C35.1715 31.1851 35.3947 31.2645 35.5732 31.4101L37.632 33.0891C37.8649 33.279 38 33.5636 38 33.8641V38.2295C38 38.7818 37.5523 39.2295 37 39.2295H34.9412V37.2295H36V34.3389L34.5851 33.1851H34.5045C34.4953 33.2244 34.4858 33.2639 34.476 33.3035L33.9986 33.1851H32.4149L31 34.3389V37.2295H32.0588V39.2295H30C29.4477 39.2295 29 38.7818 29 38.2295V33.8641C29 33.5636 29.1351 33.279 29.368 33.0891L31.4268 31.4101C31.6053 31.2645 31.8285 31.1851 32.0588 31.1851H32.7126C32.6878 30.6727 32.5803 30.2144 32.4114 29.8041C32.2091 29.3129 31.9073 28.8627 31.5142 28.4558C31.3833 28.422 31.2523 28.389 31.1214 28.3569C30.6186 28.2333 30.1029 28.4861 29.8746 28.9539L25.8105 28.9539C24.9218 28.9541 24.4694 28.9541 24.0249 28.954H24.0248H24.0248C23.5637 28.954 23.1112 28.954 22.1893 28.9542L18.1254 28.9539C17.8971 28.4861 17.3814 28.2333 16.8786 28.3569C16.7666 28.3844 16.6544 28.4125 16.5424 28.4413C16.0993 28.8976 15.7951 29.3987 15.6354 29.9375ZM17 35.2073C17 35.7858 16.5384 36.2295 16 36.2295C15.4616 36.2295 15 35.7858 15 35.2073C15 34.6288 15.4616 34.1851 16 34.1851C16.5384 34.1851 17 34.6288 17 35.2073Z"
+                                        fill="#1C274C" />
+                                </g>
+
+                            </svg>
+                            <h1>Our Doctors</h1>
+                        </div>
+                        <div class="bottom">
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Services-->
+    <section id="Services">
+        <div class="services-container">
+            <div class="wrapper">
+                <div class="services-items">
+                    <div class="services-header">
+                        <h1>Featured Services</h1>
+                    </div>
+                    <div class="services-item">
+                        <div class="services-card">
+                            <div class="top">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="100px" viewBox="0 0 64 64" aria-hidden="true" role="img"
+                                    class="iconify iconify--medical-icon" preserveAspectRatio="xMidYMid meet"
+                                    fill="#000000">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+
+                                        <path
+                                            d="M30.825 14.252h1.959v-1.629h1.63v-1.958h-1.63V9.03h-1.959v1.635h-1.63v1.958h1.63z"
+                                            fill="#800020" />
+
+                                        <path
+                                            d="M55.132.673H8.558C3.994.673.282 4.386.282 8.951v46.567c0 4.565 3.713 8.279 8.276 8.279h46.574c4.564 0 8.276-3.713 8.276-8.279V8.951c0-4.564-3.712-8.278-8.276-8.278zM31.818 7.938c2.794 0 7.37 1.175 9.922 3.963l-3.435 6.592a8.175 8.175 0 0 0-6.486-3.187a8.167 8.167 0 0 0-6.432 3.122l-3.502-6.38c2.949-2.948 7.019-4.11 9.934-4.11zm6.295 15.304a6.302 6.302 0 0 1-6.305 6.297a6.297 6.297 0 0 1 0-12.594a6.302 6.302 0 0 1 6.305 6.297zM19.545 36.789c.572-1.999 3.099-5.544 7.47-5.565l9.824.009c4.273.105 6.749 3.581 7.314 5.557l3.615 11.962h-5.297l-2.307-7.895H38.55l2.293 7.895h-18l2.303-7.895h-1.613l-2.302 7.895h-5.372l3.685-11.963zm35.827 18.963H8.253v-4.483h47.118v4.483z"
+                                            fill="#800020" />
+
+                                    </g>
+
+                                </svg>
+
+                                <h2>Primary Care</h2>
+                            </div>
+                            <div class="bottom">
+                                <p>We believe that effective Primary Care is the key to long term health. Whether
+                                    you need
+                                    help
+                                    managing chronic conditions or need immediate assistance, we provide you with
+                                    the high
+                                    quality
+                                    primary care you deserve.</p>
+                                <a href="">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="services-card">
+                            <div class="top">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="100px" viewBox="0 0 64 64" aria-hidden="true" role="img"
+                                    class="iconify iconify--medical-icon" preserveAspectRatio="xMidYMid meet"
+                                    fill="#000000">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+
+                                        <path
+                                            d="M33.208 25.544a3.616 3.616 0 0 1 4.548 2.347a3.621 3.621 0 0 1-2.346 4.549l-9.838 3.144a3.618 3.618 0 0 1-3.331-.597l-4.069-3.184l8.835 31.777H1.267V23.208a4.318 4.318 0 0 1 4.319-4.317h6.435c.918 0 1.764.293 2.46.836l10.711 8.379l8.016-2.563zM17.486 37.718h-3.904v-3.909H8.923v3.909h-3.89v4.673h3.89v3.889h4.659v-3.889h3.904v-4.673z"
+                                            fill="#800020" />
+
+                                        <path
+                                            d="M9.655 16.951a7.77 7.77 0 0 0 0-15.538a7.77 7.77 0 0 0-7.769 7.768a7.768 7.768 0 0 0 7.769 7.77z"
+                                            fill="#800020" />
+
+                                        <path
+                                            d="M55.37 16.979a7.78 7.78 0 0 0 7.779-7.777c0-4.301-3.486-7.787-7.779-7.787a7.783 7.783 0 0 0-7.781 7.787a7.779 7.779 0 0 0 7.781 7.777z"
+                                            fill="#800020" />
+
+                                        <path
+                                            d="M53.02 19.069c-3.184 0-4.628 1.089-5.837 2.975l-.782 1.504l-4.547-1.328l.192-1.239l-10.857-2.432l-.304 1.354l-2.031-.452l.302-1.358l-.815-.18l-.932 4.16l.811.18l.311-1.358l2.031.454l-.304 1.361l10.86 2.432l.351-1.274l4.399.707l-11.335 21.8a3.545 3.545 0 0 0 1.588 4.757a3.553 3.553 0 0 0 4.764-1.586l9.456-18.351h1.551v32.386h11.147V19.07H53.021z"
+                                            fill="#800020" />
+
+                                    </g>
+
+                                </svg>
+                                <h2>Specialty Care</h2>
+                            </div>
+                            <div class="bottom">
+                                <p>At Optum, our fellowship trained and board-certified Specialists have expertise in
+                                    their
+                                    chosen
+                                    fields, and work closely with your primary care physician to help manage your care.
+                                </p>
+                                <a href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-item">
+                        <div class="services-card">
+                            <div class="top">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="100px" viewBox="0 0 64 64" aria-hidden="true" role="img"
+                                    class="iconify iconify--medical-icon" preserveAspectRatio="xMidYMid meet"
+                                    fill="#000000">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+
+                                        <path
+                                            d="M10.643 35.727a4.233 4.233 0 0 1 4.24-4.235a4.236 4.236 0 0 1 4.242 4.235a4.241 4.241 0 0 1-8.482 0z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M51.597 33.133c1.865 0 3.371 1.462 3.387 3.313l.007 8.944H20.958V33.142l30.639-.009z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M17.039 45.383c1.151 0 2.086-.935 2.086-2.086s-.935-2.086-2.086-2.086h-6.03a2.083 2.083 0 0 0-2.084 2.086c0 1.151.928 2.086 2.084 2.086h6.03z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M57.009 54.179v9.327h5.523V33.928a2.756 2.756 0 0 0-2.755-2.759a2.764 2.764 0 0 0-2.768 2.759v13.575H7.42V28.348c0-1.523-1.328-2.762-2.855-2.762v.002c-1.522 0-2.721 1.237-2.721 2.759v35.158h5.575v-9.327h49.59z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M39.508.14c1.767 0 4.661.743 6.271 2.505l-2.17 4.168a5.17 5.17 0 0 0-4.101-2.014c-1.649 0-3.116.77-4.065 1.973L33.23 2.737C35.093.873 37.669.139 39.508.139zm-.625 4.2h1.238V3.101h1.239V1.865h-1.239V.627h-1.238v1.238h-1.237v1.236h1.237V4.34z"
+                                            fill="&#9;#800020" />
+
+                                        <path d="M43.482 10.248a3.982 3.982 0 1 1-7.965 0a3.982 3.982 0 0 1 7.965 0z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M35.67 15.365c-2.784.015-4.397 2.274-4.76 3.55l-3.392 11.133h3.433l2.5-8.542h1.779l-2.493 8.54h13.507l-2.475-8.54h1.778l2.566 8.542h3.382L48.09 18.915c-.362-1.26-1.941-3.476-4.664-3.544l-7.756-.006z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M10.293 17.925c-4.888 0-8.86-3.974-8.86-8.862c0-4.889 3.971-8.864 8.86-8.864c4.886 0 8.864 3.976 8.864 8.864c0 4.888-3.979 8.862-8.864 8.862zm-.003-2.194c3.678 0 6.672-2.991 6.672-6.67c0-3.675-2.993-6.671-6.672-6.671c-3.676 0-6.665 2.995-6.665 6.671c0 3.68 2.989 6.67 6.665 6.67z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M10.338 10.233a.662.662 0 0 1-.639-.048a.66.66 0 0 1-.296-.46l-.009-5.151a.667.667 0 0 1 1.333 0V8.57l3.416-1.609a.666.666 0 0 1 .566 1.204l-4.372 2.067z"
+                                            fill="&#9;#800020" />
+
+                                    </g>
+
+                                </svg>
+                                <h2>Acute Care</h2>
+                            </div>
+                            <div class="bottom">
+                                <p>We provide care to patients at several local acute care hospitals and make it a
+                                    priority
+                                    to
+                                    communicate with the patient’s primary care doctor whenever their patient is
+                                    admitted
+                                    under
+                                    our
+                                    Hospitalist team’s care.</p>
+                                <a href="">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="services-card ">
+                            <div class="top">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="100px" viewBox="0 0 64 64" aria-hidden="true" role="img"
+                                    class="iconify iconify--medical-icon" preserveAspectRatio="xMidYMid meet"
+                                    fill="#000000">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+
+                                        <path
+                                            d="M13.903 9.073a5.026 5.026 0 0 0-5.019 5.021c0 2.77 2.25 5.022 5.019 5.022a5.029 5.029 0 0 0 5.023-5.022a5.03 5.03 0 0 0-5.023-5.021zm3.327 4.348l-3.293 1.556a.497.497 0 0 1-.48-.036a.494.494 0 0 1-.224-.346l-.007-3.877a.502.502 0 0 1 1.004 0v3.008l2.572-1.211a.501.501 0 1 1 .428.906z"
+                                            fill="&#9;#800020" />
+
+                                        <path
+                                            d="M55.327.673H8.756C4.192.673.48 4.385.48 8.951v46.566c0 4.565 3.713 8.279 8.276 8.279h46.571c4.564 0 8.276-3.714 8.276-8.279V8.951c0-4.565-3.712-8.278-8.276-8.278zM34.765 8.872a4.726 4.726 0 0 1 4.726 4.728c0 2.611-1.664 4.728-4.726 4.728a4.728 4.728 0 1 1 0-9.456zM22.557 30.895l2.423-7.16c.648-1.779 2.279-3.873 4.73-3.873h10.108c2.451 0 4.083 2.094 4.73 3.873l2.423 7.16c.233.796-.019 1.659-.704 2.145c-.321.228-.752.38-1.118.38c-.43 0-.861-.146-1.164-.359l-6.524-4.583a1.754 1.754 0 0 1 2.022-2.866l3.819 2.886c.228.17.55.123.723-.104a.573.573 0 0 0-.104-.721l-3.026-2.276v-4.308l-6.129.998l-6.129-.998v4.308l-3.027 2.276a.574.574 0 0 0-.103.721a.516.516 0 0 0 .721.104l3.82-2.886a1.754 1.754 0 0 1 2.022 2.866l-6.524 4.583a2.091 2.091 0 0 1-1.166.359c-.365 0-.797-.153-1.116-.38c-.686-.486-.939-1.35-.706-2.145zm20.234 2.584L29.77 31.337l1.868-1.33l3.127.433l3.123-.433l4.903 3.473zM7.233 14.096c0-3.68 2.992-6.673 6.67-6.673s6.673 2.993 6.673 6.673s-2.995 6.671-6.673 6.671a6.678 6.678 0 0 1-6.67-6.671zM34.707 51.06H19.342a1.498 1.498 0 0 1-1.497-1.498v-13.46c0-.824.669-1.495 1.497-1.495h2.995c.825 0 1.497.671 1.497 1.495v7.476h10.874v7.482zm6.397 3.404a2.58 2.58 0 0 1-2.581 2.579a2.58 2.58 0 0 1-2.582-2.579V43.039a2.583 2.583 0 0 1 5.163 0v11.425zm-1.089-14.722l-11.273-1.858a2.582 2.582 0 0 1 .839-5.094l11.273 1.859a2.577 2.577 0 0 1 2.127 2.964a2.584 2.584 0 0 1-2.966 2.128zm11.739 9.82a1.5 1.5 0 0 1-1.497 1.498h-7.915v-7.482h3.423v-7.476c0-.824.672-1.495 1.495-1.495h2.997c.824 0 1.497.671 1.497 1.495v13.46z"
+                                            fill="&#9;#800020" />
+
+                                    </g>
+
+                                </svg>
+                                <h2>Post-Acute Care</h2>
+                            </div>
+                            <div class="bottom">
+                                <p>We help patients transition safely after a hospitalization by providing continuity of
+                                    care at
+                                    various Skilled Nursing and Rehabilitation facilities across the Phoenix Metro.</p>
+                                <a href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-item">
+                        <div class="services-card ">
+                            <div class="top">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="100px" viewBox="0 0 64 64" aria-hidden="true" role="img"
+                                    class="iconify iconify--medical-icon" preserveAspectRatio="xMidYMid meet"
+                                    fill="#000000">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+
+                                        <path
+                                            d="M55.649.359H8.863C4.281.359.551 4.09.551 8.675v46.782c0 4.586 3.729 8.315 8.312 8.315h46.786c4.584 0 8.315-3.729 8.315-8.315V8.675c0-4.585-3.731-8.316-8.315-8.316zm-8.508 19.303a1.847 1.847 0 1 1 0 3.695a1.847 1.847 0 0 1 0-3.695zM34.058 7.907a2.637 2.637 0 0 1 2.634 2.634a2.634 2.634 0 1 1-2.634-2.634zM19.77 7.889c1.476 0 2.673 1.187 2.673 2.651a2.662 2.662 0 0 1-2.673 2.652a2.66 2.66 0 0 1-2.672-2.652a2.66 2.66 0 0 1 2.672-2.651zm-8.016 16.285l2.105-7.332c.84-2.928 3.294-2.838 3.294-2.838h5.228s2.451-.09 3.294 2.838l1.029 3.583l1.029-3.583c.841-2.928 3.294-2.838 3.294-2.838h6.757s2.455-.09 3.296 2.838l2.086 7.277s1.644.15 1.667.15h4.985c1.307 0 2.456 1.062 2.456 2.369v4.671a.802.802 0 0 1-.798.812a.813.813 0 0 1-.809-.812v-4.106h-.834v12.112c0 .599-.492 1.086-1.091 1.086s-1.084-.487-1.084-1.086v-6.478h-.85v6.478a1.087 1.087 0 0 1-2.172 0V26.348c-1.061-.303-2.501-.71-2.812-.781c-.014-.002-.022-.012-.036-.016c-.353-.088-.648-.32-.752-.673l-1.963-7.146l-.999-.002v20.907c0 .853-.7 1.545-1.555 1.545a1.545 1.545 0 0 1-1.543-1.545V26.742h-1.142v11.895c0 .853-.691 1.545-1.545 1.545a1.551 1.551 0 0 1-1.552-1.545V17.73l-.92.002l-2.016 7.039a.968.968 0 0 1-.172.365c-.198.296-.542.461-.927.449c-.387.012-.733-.157-.932-.454a.992.992 0 0 1-.158-.327l-2.025-7.072l-.996-.002l2.962 12.374h-2.599v8.788c0 .725-.59 1.313-1.316 1.313a1.311 1.311 0 0 1-1.309-1.313v-8.789h-1.108v8.789c0 .725-.592 1.313-1.316 1.313a1.31 1.31 0 0 1-1.309-1.313v-8.788h-2.644l2.991-12.374l-.999.002l-2.049 7.146c-.155.547-.767.85-1.366.678c-.6-.174-.976-.695-.776-1.382zm.697 30.975c-1.283 0-2.506-.322-3.69-.845v-1.66c1.202.614 2.422.999 3.69.999c2.752 0 5.281-1.653 7.871-3.661c.306.242.609.477.917.722c.099.081.201.16.301.239c-2.823 2.205-5.768 4.204-9.089 4.204zm19.787 0c-3.829 0-7.156-2.654-10.372-5.22c-1.466-1.17-2.895-2.307-4.335-3.191v4.02c-.504.33-1.006.633-1.507.893v-5.62c0-.038.015-.07.021-.105c-.936-.44-1.884-.738-2.856-.843v7.507a5.787 5.787 0 0 1-.755.057c-.251 0-.502-.024-.752-.057h.001v-7.511c-.996.1-1.964.396-2.921.821v-1.626c1.18-.459 2.398-.743 3.674-.743c3.827 0 7.152 2.654 10.369 5.221c1.473 1.175 2.907 2.315 4.354 3.201v-4.039c.502-.33 1.005-.635 1.507-.891v5.629c0 .04-.017.074-.022.112c.936.439 1.885.735 2.86.838v-7.504c.239-.029.479-.055.719-.055c.263 0 .525.024.788.06v7.485c.97-.107 1.918-.41 2.852-.85c-.004-.029-.018-.055-.018-.086V47.06c.501.26 1.003.563 1.507.895v3.981c.92-.566 1.835-1.228 2.759-1.942c.301.239.6.471.907.714l.312.248c-2.826 2.202-5.773 4.196-9.091 4.196zm23.534-.807c-1.19.499-2.422.807-3.712.807c-3.33 0-6.282-2.009-9.111-4.221c-.421-.33-.841-.666-1.259-.997c-.528-.423-1.053-.841-1.575-1.244c-2.586-2.002-5.109-3.651-7.856-3.651c-2.757 0-5.288 1.657-7.882 3.668c-.315-.248-.626-.491-.944-.743l-.274-.217c2.609-2.04 5.326-3.884 8.346-4.158c.25-.023.499-.055.753-.055c.253 0 .504.014.753.036c3.012.27 5.718 2.124 8.321 4.158c.434.339.867.685 1.297 1.027c.518.413 1.029.821 1.537 1.215c2.601 2.016 5.135 3.678 7.894 3.678c1.276 0 2.505-.365 3.712-.946v1.644zm0-8.373c-.963-.461-1.939-.779-2.942-.888v7.495a6.081 6.081 0 0 1-.809.062c-.234 0-.466-.026-.698-.053v-7.493c-.965.104-1.908.401-2.837.834v5.744a16.463 16.463 0 0 1-1.507-.889v-4.045c-.937.572-1.872 1.252-2.812 1.98c-.318-.252-.636-.497-.959-.755l-.26-.206c2.837-2.214 5.795-4.223 9.127-4.224c1.283 0 2.51.304 3.695.798v1.641z"
+                                            fill="&#9;#800020" />
+
+                                    </g>
+
+                                </svg>
+                                <h2>Medicare Advantage</h2>
+                            </div>
+                            <div class="bottom">
+                                <p>Medicare Advantage is a different way to get Medicare. It covers everything that
+                                    Original
+                                    Medicare does, plus more. Medicare Advantage plans support your primary care
+                                    doctor’s
+                                    care
+                                    plan.
+                                </p>
+                                <a href="">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="services-card ">
+                            <div class="top">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="100px" viewBox="0 0 64 64" aria-hidden="true" role="img"
+                                    class="iconify iconify--medical-icon" preserveAspectRatio="xMidYMid meet"
+                                    fill="#000000">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                    <g id="SVGRepo_iconCarrier">
+
+                                        <path
+                                            d="M55.563.242H8.779C4.194.242.464 3.972.464 8.557v46.781c0 4.586 3.73 8.316 8.315 8.316h46.784c4.583 0 8.314-3.73 8.314-8.316V8.557c0-4.586-3.731-8.315-8.314-8.315zM45.087 16.917a5.768 5.768 0 0 1 5.768 5.77a5.77 5.77 0 1 1-5.768-5.77zm3.177 13.02c-.045 5.781-1.045 6.542-3.143 6.542c-2.096 0-3.097-.761-3.141-6.542h6.284zM30.91 15.151a1.279 1.279 0 0 1 .001 2.555a1.278 1.278 0 1 1 0-2.555zm-9.131-8.129a1.822 1.822 0 0 1 0 3.641a1.82 1.82 0 1 1 0-3.641zm-9.883-.013c1.02 0 1.849.821 1.849 1.833c0 1.013-.829 1.833-1.849 1.833s-1.848-.821-1.848-1.833a1.84 1.84 0 0 1 1.848-1.833zm5.619 11.748c-.093.328-.456.594-.812.564c-.356.03-.657-.236-.753-.564l-1.414-4.942h-.691l2.05 8.556h-1.798v6.077a.907.907 0 0 1-1.815 0v-6.077h-.765v6.077a.91.91 0 0 1-.912.907a.905.905 0 0 1-.905-.907v-6.077H7.872l2.069-8.556H9.25l-1.413 4.942c-.11.378-.563.666-.977.548c-.413-.119-.645-.562-.506-1.034l1.455-5.07c.582-2.026 2.277-1.962 2.277-1.962h3.616s1.696-.064 2.278 1.962l.755 2.631l.755-2.631c.581-2.026 2.278-1.962 2.278-1.962h4.673s1.696-.064 2.278 1.962l1.441 5.024l1.121.109l3.48-.004c.901 0 1.698.734 1.698 1.638v3.229c0 .309-.242.56-.552.56a.558.558 0 0 1-.557-.56v-2.84h-.58v8.376a.753.753 0 0 1-1.503 0v-4.481h-.587v4.481a.75.75 0 0 1-.748.749a.754.754 0 0 1-.755-.749h-.001v-8.965l-1.834-.513c-.318-.096-.616-.376-.698-.662l-1.314-4.778h-.691v14.458a1.07 1.07 0 0 1-2.139 0v-8.226h-.789v8.226a1.07 1.07 0 0 1-2.142 0V13.815h-.637l-1.416 4.942zm39.071 35.585c0 1.397-.126 2.529-.126 2.529H37.175v-17.53h-.786l-3.58 5.341c-.583.795-1.767 1.18-2.709 1.18h-8.404a2.527 2.527 0 0 1-2.529-2.526c0-1.392 1.132-2.492 2.529-2.492h7.644l5.302-8.019c1.273-1.939 3.628-2.864 5.756-2.864c0 5.639 1.405 8.026 3.946 8.026v9.376a2.01 2.01 0 0 0-1.216 1.846c0 1.108.886 1.995 1.994 1.995c1.109 0 1.997-.912 1.997-2.023c0-.827-.502-1.537-1.217-1.843v-9.379c2.539-.001 3.947-2.384 3.947-8.023c4.223 0 6.737 2.516 6.737 6.369v18.037z"
+                                            fill="&#9;#800020" />
+
+                                    </g>
+
+                                </svg>
+
+
+                                <h2>Virtual Care</h2>
+                            </div>
+                            <div class="bottom">
+                                <p>Medicare Advantage is a different way to get Medicare. It covers everything that
+                                    Original
+                                    Medicare does, plus more. Medicare Advantage plans support your primary care
+                                    doctor’s
+                                    care
+                                    plan.
+                                </p>
+                                <a href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="Contact-Us">
+        <div class="contact-us-container">
+            <div class="wrapper">
+                <div class="contact-us-header">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact-us-items">
+                    <div class="contact-us-item">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                height="50px" version="1.1" id="_x32_" viewBox="0 0 512 512" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: #000000;
+                                    }
+                                </style>
+                                <g>
+                                    <path class="st0"
+                                        d="M510.746,110.361c-2.128-10.754-6.926-20.918-13.926-29.463c-1.422-1.794-2.909-3.39-4.535-5.009   c-12.454-12.52-29.778-19.701-47.531-19.701H67.244c-17.951,0-34.834,7-47.539,19.708c-1.608,1.604-3.099,3.216-4.575,5.067   c-6.97,8.509-11.747,18.659-13.824,29.428C0.438,114.62,0,119.002,0,123.435v265.137c0,9.224,1.874,18.206,5.589,26.745   c3.215,7.583,8.093,14.772,14.112,20.788c1.516,1.509,3.022,2.901,4.63,4.258c12.034,9.966,27.272,15.45,42.913,15.45h377.51   c15.742,0,30.965-5.505,42.967-15.56c1.604-1.298,3.091-2.661,4.578-4.148c5.818-5.812,10.442-12.49,13.766-19.854l0.438-1.05   c3.646-8.377,5.497-17.33,5.497-26.628V123.435C512,119.06,511.578,114.649,510.746,110.361z M34.823,99.104   c0.951-1.392,2.165-2.821,3.714-4.382c7.689-7.685,17.886-11.914,28.706-11.914h377.51c10.915,0,21.115,4.236,28.719,11.929   c1.313,1.327,2.567,2.8,3.661,4.272l2.887,3.88l-201.5,175.616c-6.212,5.446-14.21,8.443-22.523,8.443   c-8.231,0-16.222-2.99-22.508-8.436L32.19,102.939L34.823,99.104z M26.755,390.913c-0.109-0.722-0.134-1.524-0.134-2.341V128.925   l156.37,136.411L28.199,400.297L26.755,390.913z M464.899,423.84c-6.052,3.492-13.022,5.344-20.145,5.344H67.244   c-7.127,0-14.094-1.852-20.142-5.344l-6.328-3.668l159.936-139.379l17.528,15.246c10.514,9.128,23.922,14.16,37.761,14.16   c13.89,0,27.32-5.032,37.827-14.16l17.521-15.253L471.228,420.18L464.899,423.84z M485.372,388.572   c0,0.803-0.015,1.597-0.116,2.304l-1.386,9.472L329.012,265.409l156.36-136.418V388.572z" />
+                                </g>
+                            </svg>
+                            <h2>Email Us</h2>
+                        </div>
+                        <div class="bottom">
+                            <p>contact@UMedicalGroup.com</p>
+                            <p>Visit us at our office: 3702 Hillside Street Phoenix, AZ 8503</p>
+                            <a href="">Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-us-item">
+                        <div class="top">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 24 24" fill="none">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M4.00655 7.93309C3.93421 9.84122 4.41713 13.0817 7.6677 16.3323C8.45191 17.1165 9.23553 17.7396 10 18.2327M5.53781 4.93723C6.93076 3.54428 9.15317 3.73144 10.0376 5.31617L10.6866 6.4791C11.2723 7.52858 11.0372 8.90532 10.1147 9.8278C10.1147 9.8278 10.1147 9.8278 10.1147 9.8278C10.1146 9.82792 8.99588 10.9468 11.0245 12.9755C13.0525 15.0035 14.1714 13.8861 14.1722 13.8853C14.1722 13.8853 14.1722 13.8853 14.1722 13.8853C15.0947 12.9628 16.4714 12.7277 17.5209 13.3134L18.6838 13.9624C20.2686 14.8468 20.4557 17.0692 19.0628 18.4622C18.2258 19.2992 17.2004 19.9505 16.0669 19.9934C15.2529 20.0243 14.1963 19.9541 13 19.6111"
+                                        stroke="#000000" stroke-width="1.5" stroke-linecap="round" />
+                                </g>
+
+                            </svg>
+                            <h2>Call Us</h2>
+                        </div>
+                        <div class="bottom">
+                            <p>620-402-5901</p>
+                            <p>Phone Hours: 7:00 AM - 9:00 PM EST</p>
+                            <a href="">Call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section id="Location">
+        <div class="location-container">
+            <div class="wrapper">
+                <div class="location-items">
+                    <div class="location-item-left">
+                        <h1>Location</h1>
+                        <p>Mountain Vista Meddical Center, PHX AZ</br>📍 10238 E Hampton Avenue, Mesa, AZ 85209,
+                            Suite
+                            411</p>
+                    </div>
+                    <div class="location-item-middle">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.2362859590685!2d-111.60990799999999!3d33.390999199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872bb1058441993f%3A0x64037b939447954b!2s10238%20E%20Hampton%20Ave%20%23411%2C%20Mesa%2C%20AZ%2085209%2C%20USA!5e0!3m2!1sen!2sca!4v1718591647264!5m2!1sen!2sca"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="location-item-right">
+                        <a href="https://www.google.com/maps/place/10238+E+Hampton+Ave+%23411,+Mesa,+AZ+85209,+USA/@33.390999,-111.609908,16z/data=!4m6!3m5!1s0x872bb1058441993f:0x64037b939447954b!8m2!3d33.3909992!4d-111.609908!16s%2Fg%2F11qz9j8sf0?hl=en&entry=ttu"
+                            target="_blank">View Larger Map</a>
+                        <a href="https://www.google.com/maps/dir//10238+E+Hampton+Ave+%23411,+Mesa,+AZ+85209,+USA/@33.390999,-111.609908,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x872bb1058441993f:0x64037b939447954b!2m2!1d-111.609908!2d33.3909992!3e0?hl=en&entry=ttu"
+                            target="_blank">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="wrapper">
+                <div class="footer-items">
+                    <div class="footer-item">
+                        <div class="footer-item-top">
+                            <img src="./assets/logo.png" />
+                        </div>
+                        <div class="footer-item-middle">
+                            <p>Empowering Health, Ensuring Care: Your Trusted Partner in Medical Excellence – sincw 2024
+                                strives to deliver compassionate, comprehensive healthcare services tailored to your
+                                needs. Together, we prioritize your well-being, offering personalized attention and
+                                innovative solutions for a healthier tomorrow.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-item">
+                        <div class="footer-item-top">
+                            <h1>Useful Links</h1>
+                        </div>
+                        <div class="footer-item-middle">
+                            <ul>
+                                <li><a href="./aboutUs.html" target="_blank">> &nbsp;&nbsp;About Us</a></li>
+                                <li><a href="./services.html" target="_blank">> &nbsp;&nbsp;Services</a></li>
+                                <li><a href="./locations.html" target="_blank">> &nbsp;&nbsp;Locations</a></li>
+                                <li><a href="./doctors.html" target="_blank">> &nbsp;&nbsp;Find A Doctor</a></li>
+                                <li><a href="./careers.html" target="_blank">> &nbsp;&nbsp;Careers</a></li>
+                                <li><a href="https://www.paymydoctor.com/paymydoctor/pre-login" target="_blank">>
+                                        &nbsp;&nbsp;Make Payments</a></li>
+                                <li><a href="https://soundphx.app.telmediq.com/signin/token/" target="blank">>
+                                        &nbsp;&nbsp;Page a Doctor</a></li>
+                                <li><a href="#">> &nbsp;&nbsp;Patient Portal</a></li>
+                                <li><a href="./appointment.html" target="_blank">> &nbsp;&nbsp;Request An
+                                        Appointment</a></li>
+                                <li><a href="./sitemap.html" target="_blank">> &nbsp;&nbsp;Site Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-item">
+                        <div class="footer-item-top">
+                            <h1>Contact Us</h1>
+                        </div>
+                        <div class="footer-item-middle">
+                            <ul>
+                                <li>📞 <a href="">(480) 943-1220</a></li>
+                                <li>📍 <a href="">Valley Vista Clinic, 10238 E Hampton Avenue, Mesa, AZ 85209,
+                                        Suite
+                                        411</a></li>
+                                <li>📧 <a href="">valleyvistaclinic@umedicalgroup.com</a></li>
+                                <li>🔴 Need to report an issue about the Website? </br>&nbsp;<a href="">>
+                                        &nbsp;&nbsp;Report an Issue
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-message">
+                    <p>© Copyright 2024 U Medical Associates All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

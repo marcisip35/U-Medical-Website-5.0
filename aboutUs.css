@@ -1,0 +1,413 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* #01204E; */
+    --dark-blue: #184485;
+    --light-blue: #3f5ebf;
+    --light-white: #f2f2f2;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#Hero {
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.wrapper {
+    width: 1400px;
+    height: 100%;
+    /* border: 2px dashed green; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 130px;
+
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.top-nav {
+    width: 100%;
+    height: 25%;
+    background-color: var(--dark-blue);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top-nav-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav-left {
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-nav-left a{
+    height: 100%;
+    color: white;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav-left a:hover {
+    padding-bottom: 4px;
+}
+
+.top-nav-right {
+    width: 50%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-nav-right a {
+    color: white;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.top-nav-right a:hover {
+    color: lightgray;
+}
+
+nav {
+    width: 100%;
+    height: 75%;
+    background-color: var(--light-white);
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 100%;
+    color: black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left {
+    width: 30%;
+}
+
+.nav-right {
+    width: 70%;
+    font-size: 18px;
+    height: 100%;
+    font-family: "Sofia Sans Condensed", sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right a {
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.nav-right a:hover {
+    color: darkgray;
+}
+
+.dropdown {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.dropdown-content {
+    width: 180px;
+    background-color: var(--light-white);
+
+    border-top: 2px solid green;
+    position: absolute;
+    top: 97px;
+    left: 0px;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+   display: flex;
+}
+
+.dropdown-content a {
+    padding-left: 5px;
+    width: 100%;
+    background-color: var(--light-white);
+    transition: 0.5s;
+}
+
+.dropdown-content a:hover {
+    color: black;
+    background-color: lightgray;
+    padding-left: 20px;
+}
+
+.appointment-button {
+    background-color: darkred;
+    border: 2px solid darkred;
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    font-size: 20px;
+    color: white !important;
+
+    display: grid;
+    place-content: center;
+}
+
+.appointment-button:hover {
+    color: black !important;
+    background-color: var(--light-white);
+}
+
+.nav-container img {
+    width: 200px;
+    height: 50px;
+}
+
+/* Footer */
+footer {
+    height: 500px;
+    width: 100%;
+}
+
+.footer-container {
+    height: 100%;
+    width: 100%;
+    background-color: var(--dark-blue);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .wrapper {
+    color: white;
+    font-family: "Sofia Sans Condensed", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items {
+    height: 90%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    height: 100%;
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-top {
+    height: 20%;
+    width: 100%;
+    /* border: 2px dashed red; */
+
+    display: grid;
+    align-content: center;
+}
+
+.footer-item-middle {
+    height: 80%;
+    width: 100%;
+    padding-right: 30%;
+    /* border: 2px dashed red; */
+}
+
+.footer-item p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.copyright-message {
+    height: 10%;
+    width: 90%;
+    border-top: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-item ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 17px;
+}
+
+.footer-item:nth-child(3) .footer-item-middle ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-item-middle a {
+    color: white;
+}
+
+.footer-item:nth-child(1) a:hover {
+    color: orange;
+}
+
+.footer-item:nth-child(2) a:hover {
+    padding-left: 5px;
+}
+
+.footer-item:nth-child(3) a:hover {
+    color: lightgray;
+}
+
+/* Animations */
+
+/* Desktop Screens */
+
+@media (max-width: 1700px) {
+    .wrapper {
+        width: 1400px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .wrapper {
+        width: 1300px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .wrapper {
+        width: 1200px;
+    }
+}
+
+/* Laptop */
+
+@media (max-width: 1400px) {
+    .wrapper {
+        width: 1100px;
+    }
+
+    .nav-left {
+        width: 25%;
+    }
+
+    .nav-right {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 1000px;
+    }
+
+    .nav-right {
+        font-size: 16px;
+        color: black;
+    }
+
+    .appointment-button {
+        font-size: 18px;
+    }
+}
+
+/* Tablets */
+
+@media(min-width: 1200px){
+    
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1100px){
+    .wrapper{
+        width: 900px;
+    }
+}
+
+@media (max-width: 1000px){
+    .wrapper{
+        width: 850px;
+    }
+}
+
+/* Phones */
+@media (max-width: 933px){
+
+}
